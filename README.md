@@ -14,15 +14,15 @@ Ubuntu 20.04 Focal
 
 ### Rust
 
-installed toolchains
-***
+Installed toolchains:
 
 * stable-x86_64-unknown-linux-gnu (default)
 * nightly-2021-11-06-x86_64-unknown-linux-gnu
 * nightly-x86_64-unknown-linux-gnu
 
-active toolchain
 ***
+
+Active toolchain:
 
 * stable-x86_64-unknown-linux-gnu (default)
 * rustc 1.60.0 (7737e0b5c 2022-04-04)
