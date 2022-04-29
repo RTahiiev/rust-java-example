@@ -15,6 +15,14 @@ extern "C" {
 JNIEXPORT jstring JNICALL Java_MainClass_bigAdd
   (JNIEnv *, jclass, jstring, jstring);
 
+/*
+ * Class:     MainClass
+ * Method:    bigSub
+ * Signature: (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+ */
+JNIEXPORT jstring JNICALL Java_MainClass_bigSub
+  (JNIEnv *, jclass, jstring, jstring);
+
 #ifdef __cplusplus
 }
 #endif

@@ -1,5 +1,6 @@
 class MainClass {
     private static native String bigAdd(String right, String left);
+    private static native String bigSub(String right, String left);
 
     static {
         // name of library in `cargo.toml`
@@ -7,7 +8,9 @@ class MainClass {
     }
 
     public static void main(String[] args) {
-        String output = MainClass.bigAdd("123", "124");
-        System.out.println(output);
+        String output1 = MainClass.bigAdd("12345678900000", "124");
+        System.out.println(output1);
+        String output2 = MainClass.bigSub("12345678900000", "124");
+        System.out.println(output2);
     }
 }
