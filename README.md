@@ -2,9 +2,9 @@
 
 use `--release` build for rust:
 
-`make build`
+1. `make build`
 
-`sudo make run`
+2. `sudo make run`
 
 ## Dependencies
 
